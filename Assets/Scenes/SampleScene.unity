@@ -263,6 +263,48 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &294139358
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4746282795008072, guid: 83b14fb270a64f74b9cea0d220e916e4, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 4746282795008072, guid: 83b14fb270a64f74b9cea0d220e916e4, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 3.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4746282795008072, guid: 83b14fb270a64f74b9cea0d220e916e4, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4746282795008072, guid: 83b14fb270a64f74b9cea0d220e916e4, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4746282795008072, guid: 83b14fb270a64f74b9cea0d220e916e4, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4746282795008072, guid: 83b14fb270a64f74b9cea0d220e916e4, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4746282795008072, guid: 83b14fb270a64f74b9cea0d220e916e4, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4746282795008072, guid: 83b14fb270a64f74b9cea0d220e916e4, type: 2}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 83b14fb270a64f74b9cea0d220e916e4, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &313744011
 GameObject:
   m_ObjectHideFlags: 0
@@ -1488,7 +1530,7 @@ MonoBehaviour:
   m_ScriptCRCCheck: 1
   m_MaxDelay: 0.01
   m_LogLevel: 2
-  m_PlayerPrefab: {fileID: 1307122716115430, guid: 83b14fb270a64f74b9cea0d220e916e4,
+  m_PlayerPrefab: {fileID: 1641126427212108, guid: 83b14fb270a64f74b9cea0d220e916e4,
     type: 2}
   m_AutoCreatePlayer: 1
   m_PlayerSpawnMethod: 1
