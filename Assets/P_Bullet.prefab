@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 23705620342607584}
   - component: {fileID: 65673925445858100}
   - component: {fileID: 114376362706045416}
+  - component: {fileID: 54149737586952744}
   m_Layer: 0
   m_Name: P_Bullet
   m_TagString: Untagged
@@ -38,7 +39,7 @@ Transform:
   m_GameObject: {fileID: 1848458869377418}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.390062, y: 2.6311722, z: 0.91697997}
-  m_LocalScale: {x: 3, y: 3, z: 11.25}
+  m_LocalScale: {x: 40, y: 40, z: 66}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -85,6 +86,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1848458869377418}
   m_Mesh: {fileID: 4300008, guid: cc34ae6a7e465584aa9e4dcc48852048, type: 3}
+--- !u!54 &54149737586952744
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1848458869377418}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!65 &65673925445858100
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -92,7 +108,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1848458869377418}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.016980033, y: 0.016980045, z: 0.0126334205}
@@ -110,3 +126,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timer: 10
   speed: 40
+  damage: 400

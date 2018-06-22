@@ -3,7 +3,8 @@
 public class FireScript : MonoBehaviour{
 
     public float timer = 3f;
-    public float speed = 5f; 
+    public float speed = 5f;
+    public float damage = 10f;
 
 
     void Start()
@@ -21,7 +22,18 @@ public class FireScript : MonoBehaviour{
         Destroy(gameObject);
     }
 
+    private void OnTriggerEnter(Collider col)
+    {
+        Target target = col.transform.GetComponent<Target>();
 
+        if (target != null)
+        {
+            Transform goTo = FindObjectOfType<Gun>().playerLocation;
+            target.TakeDamage(damage, goTo.position);
+
+        }
+        Destroy(gameObject);
+    }
 
 }
 
