@@ -1008,6 +1008,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   emitZone: {fileID: 4449014607322666}
   bullet: {fileID: 1848458869377418, guid: fe69643ce5d5c6a4e9f16491838ca2e1, type: 2}
+  playerLocation: {fileID: 4242451016528986}
+  fireRate: 15
 --- !u!114 &114037749894853216
 MonoBehaviour:
   m_ObjectHideFlags: 1
