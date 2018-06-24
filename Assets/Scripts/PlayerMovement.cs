@@ -56,4 +56,6 @@ public class PlayerMovement : MonoBehaviour
         moveDirection = transform.TransformDirection(moveDirection);
         characterController.Move(moveDirection * Time.deltaTime);
     }
+
+
 }

@@ -25,4 +25,6 @@ public class Follow : MonoBehaviour
             yourCam.transform.RotateAround(player.position, yourCam.transform.right, -Y);
         }
     }
+
+
 }
