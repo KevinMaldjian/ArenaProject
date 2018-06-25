@@ -6,6 +6,7 @@ public class JustShoot : NetworkBehaviour
     public Transform emitZone;
     public GameObject bullet;
     public Transform playerLocation;
+    public Transform pullLocation;
     public float fireRate = 15f;
     private float nextTimeToFire = 0f;
     GameObject myBullet;

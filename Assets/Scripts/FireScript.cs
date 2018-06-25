@@ -28,7 +28,7 @@ public class FireScript : MonoBehaviour{
 
         if (target != null)
         {
-            Transform goTo = FindObjectOfType<Gun>().playerLocation;
+            Transform goTo = FindObjectOfType<JustShoot>().pullLocation;
             target.TakeDamage(damage, goTo.position);
 
         }
